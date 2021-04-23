@@ -26,3 +26,6 @@ Route::get('/post', function () {
 Route::get('/contact', function () {
     return view('home.contact');
 });
+Route::get('/create', function () {
+    return view('home.create');
+});
